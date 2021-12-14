@@ -26,18 +26,7 @@ h1 {
   text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.3);
 }
 
-nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style: none;
-  font-size: 2rem;
-  width: 75%;
-  margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 1px 1px 5px 5px lightgreen;
 
-}
 header {
   perspective: 700px;
 }
@@ -47,15 +36,7 @@ header h1{
 header h1:hover{
   transform: rotateY(1turn);
 }
-nav ul li{
-  padding: 5px;
-  transition: transform .5s;
-  cursor: pointer;
- 
-}
-nav ul li:hover{
-  transform: translateY(-15px);
-}
+
 .load-quote {
   color: #fff;
   text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.3);
